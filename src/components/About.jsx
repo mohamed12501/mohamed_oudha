@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const stats = [
     { value: '5+', label: 'Apps Shipped' },
-    { value: '4', label: 'Workflows Built' },
+    { value: '5+', label: 'Workflows Built' },
     { value: '2', label: 'Events Organized' },
     { value: '🥇', label: '1st Place' },
 ];
