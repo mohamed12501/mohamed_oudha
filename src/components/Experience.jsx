@@ -22,7 +22,7 @@ const experiences = [
     {
         period: 'Jul – Oct 2024',
         role: 'Sales & Inventory',
-        company: 'Dymapec & Bergim',
+        company: 'Dimapec Pro & Bergim',
         desc: 'Sales operations and inventory management.',
     },
     {
