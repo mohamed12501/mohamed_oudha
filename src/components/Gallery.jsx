@@ -4,46 +4,32 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 const galleryItems = [
     {
-        src: encodeURI('/profile green card (white backround).jpg'),
-        title: 'Profile',
-        subtitle: 'Clean portrait',
-        accent: 'from-primary/80 to-secondary/80',
-        span: 'lg:col-span-3 lg:row-span-2',
-    },
-    {
         src: encodeURI('/work.jpeg'),
-        title: 'Work',
-        subtitle: 'Focused build session',
+        title: 'Building in Focus',
+        subtitle: 'Architecting full-stack solutions across mobile, backend, and automation',
         accent: 'from-secondary/70 to-cyan-400/70',
         span: 'lg:col-span-5 lg:row-span-2',
     },
     {
         src: encodeURI('/hackathon particpating.JPG'),
-        title: 'Hackathon participating',
-        subtitle: 'Team challenge moment',
+        title: 'Boumerdes Smart City Hackathon',
+        subtitle: 'Co-organizing and executing large-scale innovation challenges',
         accent: 'from-gold/70 to-orange-400/70',
         span: 'lg:col-span-10 lg:row-span-2',
     },
     {
         src: encodeURI('/mentoring.jpg'),
-        title: 'Mentoring',
-        subtitle: 'Sharing knowledge',
+        title: 'Mentoring the Next Generation',
+        subtitle: 'Sharing knowledge and guiding emerging developers',
         accent: 'from-emerald-400/70 to-primary/70',
-        span: 'lg:col-span-4 lg:row-span-1',
+        span: 'lg:col-span-7 lg:row-span-1',
     },
     {
         src: encodeURI('/orgnize.jpg'),
-        title: 'Organize',
-        subtitle: 'Event coordination',
+        title: 'Event Coordination',
+        subtitle: 'Bringing teams and ideas together at scale',
         accent: 'from-fuchsia-400/70 to-secondary/70',
-        span: 'lg:col-span-4 lg:row-span-1',
-    },
-    {
-        src: encodeURI('/chilling in the forest.jpg'),
-        title: 'Chilling in the forest',
-        subtitle: 'Reset outside the screen',
-        accent: 'from-lime-400/70 to-emerald-500/70',
-        span: 'lg:col-span-4 lg:row-span-2',
+        span: 'lg:col-span-8 lg:row-span-1',
     },
 ];
 
@@ -120,12 +106,12 @@ export default function Gallery() {
                     viewport={{ once: true, margin: '-100px' }}
                     className="text-center max-w-2xl mx-auto mb-12"
                 >
-                    <p className="text-xs uppercase tracking-[0.35em] text-secondary mb-3">Gallery</p>
+                    <p className="text-xs uppercase tracking-[0.35em] text-secondary mb-3">In the Field</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                        Moments <span className="gradient-text">Behind the Work</span>
+                        <span className="gradient-text">Behind the Work</span>
                     </h2>
                     <p className="text-text-secondary leading-relaxed">
-                        A small visual story of how I work, mentor, organize, and recharge around the projects.
+                        Real moments from the projects, teams, and events that drive my work—building, mentoring, organizing, and shipping solutions.
                     </p>
                 </motion.div>
 
