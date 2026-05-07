@@ -17,10 +17,10 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
-      <Gallery />
       <Experience />
       <Achievements />
       <Contact />
+      <Gallery />
       <Footer />
     </div>
   );
