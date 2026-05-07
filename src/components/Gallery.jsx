@@ -12,8 +12,8 @@ const galleryItems = [
     },
     {
         src: encodeURI('/hackathon particpating.JPG'),
-        title: 'Boumerdes Smart City Hackathon',
-        subtitle: 'Co-organizing and executing large-scale innovation challenges',
+        title: 'ForsaTic Algerie Telecom Hackathon',
+        subtitle: 'Competing in large-scale innovation challenges',
         accent: 'from-gold/70 to-orange-400/70',
         span: 'lg:col-span-10 lg:row-span-2',
     },
