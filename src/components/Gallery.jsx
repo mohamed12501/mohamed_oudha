@@ -8,29 +8,30 @@ const galleryItems = [
         title: 'Building in Focus',
         subtitle: 'Architecting full-stack solutions across mobile, backend, and automation',
         accent: 'from-secondary/70 to-cyan-400/70',
-        span: 'lg:col-span-5 lg:row-span-2',
+        span: 'lg:col-span-4 lg:row-span-2',
     },
     {
         src: encodeURI('/hackathon particpating.JPG'),
         title: 'ForsaTic Algerie Telecom Hackathon',
         subtitle: 'Competing in large-scale innovation challenges',
         accent: 'from-gold/70 to-orange-400/70',
-        span: 'lg:col-span-10 lg:row-span-2',
+        span: 'lg:col-span-5 lg:row-span-2',
+    },
+     {
+        src: encodeURI('/orgnize.jpg'),
+        title: 'Event Coordination',
+        subtitle: 'Bringing teams and ideas together at scale',
+        accent: 'from-fuchsia-400/70 to-secondary/70',
+        span: 'lg:col-span-6 lg:row-span-2',
     },
     {
         src: encodeURI('/mentoring.jpg'),
         title: 'Mentoring the Next Generation',
         subtitle: 'Sharing knowledge and guiding emerging developers',
         accent: 'from-emerald-400/70 to-primary/70',
-        span: 'lg:col-span-7 lg:row-span-1',
+        span: 'lg:col-span-4 lg:row-span-2',
     },
-    {
-        src: encodeURI('/orgnize.jpg'),
-        title: 'Event Coordination',
-        subtitle: 'Bringing teams and ideas together at scale',
-        accent: 'from-fuchsia-400/70 to-secondary/70',
-        span: 'lg:col-span-8 lg:row-span-1',
-    },
+   
 ];
 
 const fadeUp = {
