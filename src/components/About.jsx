@@ -39,12 +39,16 @@ export default function About() {
                         viewport={{ once: true, margin: '-100px' }}
                         className="flex flex-col items-center"
                     >
-                        {/* Photo placeholder */}
+                        {/* Profile photo */}
                         <div className="relative mb-8">
-                            <div className="w-48 h-48 rounded-full bg-surface border-2 border-primary/50 glow flex items-center justify-center">
-                                <span className="text-5xl font-bold gradient-text">MO</span>
+                            <div className="w-52 h-52 rounded-[2rem] overflow-hidden border border-primary/40 glow bg-surface shadow-2xl shadow-black/30">
+                                <img
+                                    src={encodeURI('/profile green card (white backround).jpg')}
+                                    alt="Mohamed Oudha portrait"
+                                    className="w-full h-full object-cover object-center"
+                                />
                             </div>
-                            <div className="absolute inset-0 rounded-full border border-primary/20 scale-110" />
+                            <div className="absolute -inset-2 rounded-[2rem] border border-primary/20" />
                         </div>
 
                         {/* Stats Grid */}
