@@ -43,7 +43,7 @@ export default function About() {
                         <div className="relative mb-8">
                             <div className="w-52 h-52 rounded-[2rem] overflow-hidden border border-primary/40 glow bg-surface shadow-2xl shadow-black/30">
                                 <img
-                                    src={encodeURI('/profile green card (white backround).jpg')}
+                                    src={encodeURI('/work.jpeg')}
                                     alt="Mohamed Oudha portrait"
                                     className="w-full h-full object-cover object-center"
                                 />
