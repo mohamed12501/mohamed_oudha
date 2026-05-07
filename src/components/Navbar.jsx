@@ -8,8 +8,9 @@ const navLinks = [
     { label: 'Projects', href: '#projects' },
     { label: 'Experience', href: '#experience' },
     { label: 'Achievements', href: '#achievements' },
-    { label: 'In the Field', href: '#gallery' },
+    
     { label: 'Contact', href: '#contact' },
+    { label: 'In the Field', href: '#gallery' },
 ];
 
 export default function Navbar() {
