@@ -4,6 +4,18 @@ import { FiExternalLink, FiDownload } from 'react-icons/fi';
 
 const projects = [
     {
+        title: 'Saudi Scholarship Helper',
+        desc: 'A high-performance scholarship discovery portal for Saudi university programs with advanced multi-select filtering, negative filters, and instant local search across large datasets.',
+        stack: ['React 19', 'Vite', 'Tailwind CSS 4', 'Framer Motion', 'XLSX'],
+        status: 'live',
+        year: '2026',
+        link: 'https://saudi-scholarships-helper16.netlify.app/',
+        linkLabel: 'View Live App',
+        isWorkflow: false,
+        accent: '#f59e0b',
+        flow: ['Large Dataset Import', 'Multi-Select Filters', 'Exclude Mode', 'None Logic Detection', 'Instant Results'],
+    },
+    {
         title: 'Algiers International Film Festival App',
         desc: 'The official mobile app of the AIFF. Covers festival events, schedules, workshops, investor networking, podcasts, multilingual support.',
         stack: ['Flutter', 'Laravel'],
@@ -53,6 +65,26 @@ const projects = [
         isWorkflow: true,
         accent: '#6366f1',
         flow: ['Incoming DM', 'Webhook Route', 'Gemini Agent', 'Format Validate', 'Auto Reply'],
+    },
+    {
+        title: 'Saudi Scholarship Scraper Workflow',
+        desc: 'An n8n pipeline that crawls Saudi university institutions and program detail pages, extracts structured scholarship data, and syncs the results into Google Sheets for the portal dataset.',
+        stack: ['n8n', 'JavaScript', 'HTTP Request', 'Google Sheets', 'Execute Workflow'],
+        status: 'workflow',
+        year: '2026',
+        isWorkflow: true,
+        accent: '#8b5cf6',
+        flow: ['Institution List', 'Program URL Loop', 'Detail Page Parse', 'Append to Sheets', 'Reusable Sub-Workflow'],
+    },
+    {
+        title: 'Dental Follow-Up WhatsApp Assistant',
+        desc: 'A patient follow-up automation that drafts caring bilingual messages after clinic visits, looks up patient notes, and sends the final WhatsApp reply through an AI-assisted n8n flow.',
+        stack: ['n8n', 'Groq', 'OpenRouter', 'WhatsApp API', 'Data Tables'],
+        status: 'workflow',
+        year: '2026',
+        isWorkflow: true,
+        accent: '#8b5cf6',
+        flow: ['Webhook Trigger', 'Patient Lookup', 'LLM Draft', 'Send WhatsApp Reply', 'Batch Processing'],
     },
     {
         title: 'ANPC Legal Advisory App',
@@ -113,6 +145,16 @@ const projects = [
         year: '2024',
         isWorkflow: false,
         accent: '#06b6d4',
+    },
+    {
+        title: 'ClinicApp – Medical Practice Management System',
+        desc: 'A Flutter-based clinic dashboard for managing patients, appointments, payments, chats, and prescription PDFs with secure authentication and real-time data flow.',
+        stack: ['Flutter', 'Riverpod', 'Supabase', 'GoRouter', 'PDF Generation'],
+        status: 'built',
+        year: '2026',
+        isWorkflow: false,
+        accent: '#14b8a6',
+        flow: ['Patient Records', 'Appointment Scheduling', 'Payments & Expenses', 'Chat & Notifications', 'PDF Documents'],
     },
 ];
 
