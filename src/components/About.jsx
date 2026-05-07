@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 const stats = [
-    { value: '5+', label: 'Apps Shipped' },
+    { value: '7', label: 'Systems Shipped', subtitle: 'mobile · desktop · backend' },
     { value: '5+', label: 'Workflows Built' },
     { value: '2', label: 'Events Organized' },
     { value: '🥇', label: '1st Place' },
@@ -65,6 +65,7 @@ export default function About() {
                                 >
                                     <div className="text-2xl font-bold text-primary mb-1">{stat.value}</div>
                                     <div className="text-xs text-text-secondary">{stat.label}</div>
+                                    {stat.subtitle && <div className="text-[10px] text-text-secondary/70 mt-1 font-medium">{stat.subtitle}</div>}
                                 </motion.div>
                             ))}
                         </div>
@@ -79,13 +80,7 @@ export default function About() {
                         viewport={{ once: true, margin: '-100px' }}
                     >
                         <p className="text-text-secondary text-lg leading-relaxed mb-6">
-                            I'm a Computer Science student at <span className="text-text font-medium">UMBB Boumerdes</span> (Bachelor's degree, graduating 2025), specializing in Software Engineering & Databases. I build production-ready mobile apps with <span className="text-primary font-medium">Flutter</span> and <span className="text-primary font-medium">Laravel</span>, design robust backend APIs, and create intelligent automation workflows with <span className="text-secondary font-medium">N8N</span> that connect AI models, social media platforms, and third-party services.
-                        </p>
-                        <p className="text-text-secondary text-lg leading-relaxed mb-6">
-                            Organizer in Boumerdes Smart City Hackathon, co-organized an international tech event, and shipped real apps used by real people — including the official app of the <span className="text-text font-medium">Algiers International Film Festival</span>.
-                        </p>
-                        <p className="text-xl font-semibold text-text">
-                            I don't just write code. I solve problems end-to-end.
+                            I don't just build apps — I architect full-stack systems. Each project I ship includes a mobile client, a desktop or web admin panel, and a shared <span className="text-primary font-medium">Laravel</span> backend. Three complete systems delivered end-to-end.
                         </p>
                     </motion.div>
                 </div>

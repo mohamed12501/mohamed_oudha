@@ -25,6 +25,7 @@ const projects = [
         linkLabel: 'Download APK',
         isWorkflow: false,
         accent: '#10b981',
+        badge: 'Mobile + Admin Panel',
     },
     {
         title: 'Real Estate AI Content Engine',
@@ -96,6 +97,7 @@ const projects = [
         accent: '#06b6d4',
         link: 'http://anpcecom.dz/achkibih/',
         linkLabel: 'View App',
+        badge: 'Full Ecosystem',
     },
     {
         title: 'Hani Services App',
@@ -107,6 +109,7 @@ const projects = [
         accent: '#06b6d4',
         link: 'http://hani.anpcecom.dz/hani_app',
         linkLabel: 'View App',
+        badge: 'Full Ecosystem',
     },
     {
         title: 'School Management System',
@@ -215,6 +218,14 @@ function ProjectCard({ project, index }) {
                         {status.label}
                     </span>
                 </div>
+
+                {project.badge && (
+                    <div className="mb-2 flex items-center gap-1">
+                        <span className="px-2.5 py-1 text-[11px] font-semibold rounded-md bg-gradient-to-r from-primary/20 to-secondary/20 border border-primary/40 text-primary">
+                            ✨ {project.badge}
+                        </span>
+                    </div>
+                )}
 
                 <p className="text-text-secondary text-sm leading-relaxed mb-4 flex-1">
                     {project.desc}
