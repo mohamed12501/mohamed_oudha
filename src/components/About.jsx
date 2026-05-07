@@ -80,7 +80,16 @@ export default function About() {
                         viewport={{ once: true, margin: '-100px' }}
                     >
                         <p className="text-text-secondary text-lg leading-relaxed mb-6">
+                            I'm a Computer Science student at <span className="text-text font-medium">UMBB Boumerdes</span> (Bachelor's degree, graduating 2025), specializing in Software Engineering & Databases. I build production-ready mobile apps with <span className="text-primary font-medium">Flutter</span> and <span className="text-primary font-medium">Laravel</span>, design robust backend APIs, and create intelligent automation workflows with <span className="text-secondary font-medium">N8N</span> that connect AI models, social media platforms, and third-party services.
+                        </p>
+                        <p className="text-text-secondary text-lg leading-relaxed mb-6">
+                            Organizer in Boumerdes Smart City Hackathon, co-organized an international tech event, and shipped real apps used by real people — including the official app of the <span className="text-text font-medium">Algiers International Film Festival</span>.
+                        </p>
+                        <p className="text-text-secondary text-lg leading-relaxed mb-6">
                             I don't just build apps — I architect full-stack systems. Each project I ship includes a mobile client, a desktop or web admin panel, and a shared <span className="text-primary font-medium">Laravel</span> backend. Three complete systems delivered end-to-end.
+                        </p>
+                        <p className="text-xl font-semibold text-text">
+                            I don't just write code. I solve problems end-to-end.
                         </p>
                     </motion.div>
                 </div>
